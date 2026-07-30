@@ -49,6 +49,24 @@
 ### How it works with Minikube
 - Both master & worker nodes can be run on a single VM
 
+### Mitigate security risk with containers 
+- Use maintained container images 
+- Use automatic vulnerability scanning on container registry
+- Use own security scanning tool on your container images 
+- NEVER run containers 
+
+#### Maintained images
+
+##### What is a maintained image
+- Docker image that isr regulary updated/managed by a maintainer
+- Usually the maintainer is an organisation, a community, or an individual 
+- - Example: Canonical maintain Ubuntu image 
+
+##### Pros & Cons of using maintained images for your base container images 
+- Better security, because regularly patched 
+- Better stability 
+- More support & Doc available 
+- Usually they adhere to best practices/industry sta
 
 # Deploying Nginx Locally with Kubernetes
 
